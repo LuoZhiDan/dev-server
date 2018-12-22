@@ -1,0 +1,7 @@
+type Query {
+  user(id: [ID!]): [User]
+  department(id: ID!): Department
+  departments: [Department]
+
+  employee(id: ID!): Employee
+}

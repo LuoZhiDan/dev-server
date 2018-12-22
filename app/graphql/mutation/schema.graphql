@@ -1,0 +1,12 @@
+
+
+type Mutation {
+  # user
+  createUser(name: String!, name_dd: String): User
+
+  # department
+  createDept(depName: String!, parentId: Int): Department
+
+  # employee
+  createEmp(emp: EmployeeInput): Employee
+}

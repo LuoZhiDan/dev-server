@@ -1,0 +1,30 @@
+{
+  "client": {
+    "clientId": "zdluoa",
+    "clientSecret": "zdluoa",
+    "grants": [
+      "password"
+    ]
+  },
+  "user": {
+    "id": 4,
+    "username": "zdluoa",
+    "password": "zdluoa"
+  },
+  "token": {
+    "accessToken": "a7b8978a7d64b23f93f6d18c9010bf8c5f360671",
+    "accessTokenExpiresAt": "2018-07-24T12:26:48.850Z",
+    "refreshToken": "2972d05d85d3a7a8edf26710bcd478e262cb3afe",
+    "refreshTokenExpiresAt": "2018-08-07T11:26:48.851Z",
+    "user": {
+      "userId": 4
+    },
+    "client": {
+      "clientId": "zdluoa",
+      "clientSecret": "zdluoa",
+      "grants": [
+        "password"
+      ]
+    }
+  }
+}

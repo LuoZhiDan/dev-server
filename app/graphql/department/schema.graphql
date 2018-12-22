@@ -1,0 +1,14 @@
+type Department {
+  id: ID!
+  depName: String!
+  parentId: Int,
+  status: Int
+}
+
+# 输入类型
+input DepartmentView {
+    id: ID
+    depName: String
+    parentId: Int,
+    status: Int
+}

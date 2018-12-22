@@ -1,0 +1,14 @@
+type Employee {
+  id: ID!
+  name: String!
+  pwd: String!
+  deptId: Int!
+  department: Department
+}
+
+# 输入类型
+input EmployeeInput {
+  name: String!
+  pwd: String!
+  deptId: Int!
+}
