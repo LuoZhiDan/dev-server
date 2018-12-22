@@ -6,11 +6,19 @@ module.exports = appInfo => {
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + 'zdluoa';
 
+
+  // 配置访问端口
+  config.cluster = {
+    listen: {
+      port: 7002
+    }
+  }
+
   // 配置数据源
   config.sequelize = {
     dialect: 'mysql', // support: mysql, mariadb, postgres, mssql
     database: 'graphql',
-    host: '118.25.127.172',
+    host: 'localhost',
     port: '3306',
     username: 'root',
     password: '123456',
@@ -44,6 +52,16 @@ module.exports = appInfo => {
   // 配置鉴权中间件
   config.oauth = {
     match: '/graphql',
+  };
+
+  config.multipart = {
+    mode: 'file',
+    tmpdir: '../file',
+    fileSize: '500mb',
+    fileExtensions: [
+      '.psd',
+      '.svg',
+    ],
   };
 
   // 配置中间件
