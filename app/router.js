@@ -14,4 +14,7 @@ module.exports = app => {
 
   // 上传文件
   router.post('/upload', controller.upload.index);
+
+  // 上传文件
+  router.all('/mock', controller.mock.index);
 };

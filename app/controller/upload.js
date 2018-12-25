@@ -8,10 +8,10 @@ class uploadController extends Controller{
         const file = ctx.request.files[0];
         console.log( file )
     
-        ctx.body = {
+        /* ctx.body = {
           url: '',
           requestBody: ctx.request.body,
-        };
+        }; */
     }
 }
 
