@@ -1,0 +1,37 @@
+{
+    "total": 0,
+    "data": [
+        {
+            "2DB87E7F3DAB52915352D6BD2F25ED11": "酉阳县,渝北区,江北区,秀山县,南川区，开州区",
+            "BB3D7CF3B4D76A1E83E62B1D9376E912": "2018-12-11 04:25:51",
+            "F6F4191A489AE4D2A8086F0096D49F025BC1DE337770A3B0B98BBD265AA6AAF3": "86%"
+        }
+    ],
+    "columns": [
+        {
+            "alias": "MSG_DIST",
+            "caption": "MSG_DIST",
+            "id": "2DB87E7F3DAB52915352D6BD2F25ED11",
+            "name": "MSG_DIST",
+            "timeType": 0,
+            "type": "DIMENSION"
+        },
+        {
+            "alias": "MSG_SEND_DATE",
+            "caption": "MSG_SEND_DATE",
+            "id": "BB3D7CF3B4D76A1E83E62B1D9376E912",
+            "name": "MSG_SEND_DATE",
+            "timeType": 0,
+            "type": "DIMENSION"
+        },
+        {
+            "alias": "MSG_ARRIVE_RATE",
+            "caption": "MSG_ARRIVE_RATE",
+            "id": "F6F4191A489AE4D2A8086F0096D49F025BC1DE337770A3B0B98BBD265AA6AAF3",
+            "name": "MSG_ARRIVE_RATE",
+            "timeType": 0,
+            "type": "DIMENSION"
+        }
+        
+    ]
+}

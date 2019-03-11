@@ -15,6 +15,9 @@ module.exports = app => {
   // 上传文件
   router.post('/upload', controller.upload.index);
 
-  // 上传文件
-  router.all('/mock', controller.mock.index);
+  // mock模拟
+  router.all('/mock/:file', controller.mock.index);
+
+  // mock模拟
+  router.all('/mock/kuaibao/:file', controller.mock.index);
 };

@@ -1,0 +1,103 @@
+{
+    "total": 0,
+    "data": [
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "江津公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 134201
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "梁平公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 32726
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "涪陵公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 57556
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "渝北公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 59566
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "长寿公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 50134
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "彭水公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 15546
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "巴南公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 190405
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "酉阳分公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 20311
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "大足公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 65248
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "北碚公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 71605
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "账务结算中心",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 0
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "城口公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 4654
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "南岸分公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 157765
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "渝中分公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 85167
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "南川公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 39961
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "石柱公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 17597
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "永川公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 82700
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "万盛公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 30844
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "西部分公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 198754
+        },
+        {
+            "A0B5CDB422F67944DC5CFBDFC83728C4": "沙坪坝分公司",
+            "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1": 104522
+        }
+    ],
+    "columns": [
+        {
+            "alias": "COMPANY_NAME",
+            "caption": "COMPANY_NAME",
+            "id": "A0B5CDB422F67944DC5CFBDFC83728C4",
+            "name": "COMPANY_NAME",
+            "timeType": 0,
+            "type": "DIMENSION"
+        },
+        {
+            "alias": "A",
+            "caption": "A",
+            "id": "CB9B3EE9ADE246AD6B35EF0CC0665715-_-1",
+            "name": "A",
+            "timeType": 0,
+            "type": "MODEL"
+        }
+    ]
+}
